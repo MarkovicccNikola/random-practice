@@ -17,3 +17,14 @@ clearBtn.addEventListener('click', () => results.textContent = '');
 if(sessionStorage.getItem("is_reloaded")) {
     results.textContent = '';
 }
+
+const cats = ["Leopard", "Serval", "Jaguar", "Tiger", "Caracal", "Lion"];
+
+for (let i = 0; i < cats.length; i++) {
+  console.log(cats[i]);
+}
+// This is the same as the following code:
+
+for (const cat of cats) {
+  console.log(cat);
+}
