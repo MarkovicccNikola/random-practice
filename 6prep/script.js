@@ -22,3 +22,5 @@ linkPara.appendChild(text);
 sect.appendChild(linkPara);
 
 link[1].remove();
+
+para.setAttribute('class', 'highlight');
