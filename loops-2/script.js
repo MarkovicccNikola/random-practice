@@ -13,11 +13,11 @@ const phonebook = [
 ];
 
 const section = document.querySelector('section');
-//section.appendChild(para);
+section.appendChild(para);
 
 for (let i = 0; i < phonebook.length; i++) {
   if (nameToSearch === phonebook[i].name) {
-    console.log(phonebook[i].number);
+    para.textContent = phonebook[i].number;
     break;
   }
 }
